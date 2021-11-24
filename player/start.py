@@ -11,12 +11,12 @@ async def start(client, message):
                 InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("ᴠɪᴅ ᴄᴍᴅs", url=f"https://{SOURCE_CODE}"),
-                InlineKeyboardButton("ᴀᴜᴅɪᴏ ᴄᴍᴅs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("ᴠɪᴅ ᴄᴍᴅs", url=f"https://t.me/tgcalls_Music_update/36"),
+                InlineKeyboardButton("ᴀᴜᴅɪᴏ ᴄᴍᴅs", url=f"https://t.me/tgcalls_Music_update/37"),
             ],
             [
                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
-                InlineKeyboardButton("ᴅᴇᴠ's", callback_data="devs"),
+                InlineKeyboardButton("ᴅᴇᴠ's", url=f"https://t.me/DeeCodeDevs"),
             ],
             [
                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
@@ -29,7 +29,7 @@ async def start(client, message):
           reply_markup=reply_markup
        )
    else:
-      await message.reply(f"**@{ASSISTANT_NAME} is Alive! ✨**")
+      await message.reply(f"**@{ASSISTANT_NAME} Video player is Alive! ✨**")
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
@@ -98,12 +98,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("ᴠɪᴅ ᴄᴍᴅs", url=f"https://{SOURCE_CODE}"),
-                InlineKeyboardButton("ᴀᴜᴅɪᴏ ᴄᴍᴅs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("ᴠɪᴅ ᴄᴍᴅs", url=f"https://t.me/tgcalls_Music_update/36"),
+                InlineKeyboardButton("ᴀᴜᴅɪᴏ ᴄᴍᴅs", url=f"https://t.me/tgcalls_Music_update/37"),
             ],
             [
                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
-                InlineKeyboardButton("ᴅᴇᴠ's", callback_data="devs"),
+                InlineKeyboardButton("ᴅᴇᴠ's", url=f"https://t.me/DeeCodeDevs"),
             ],
             [
                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
