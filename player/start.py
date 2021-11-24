@@ -15,7 +15,7 @@ async def start(client, message):
                 InlineKeyboardButton("ᴀᴜᴅɪᴏ ᴄᴍᴅs", url=f"https://t.me/tgcalls_Music_update/37"),
             ],
             [
-                InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
+                InlineKeyboardButton("sᴏᴜʀᴄᴇ", url=f"https://{SOURCE_CODE}"),
                 InlineKeyboardButton("ᴅᴇᴠ's", url=f"https://t.me/DeeCodeDevs"),
             ],
             [
