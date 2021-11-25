@@ -8,7 +8,7 @@ from pyrogram.errors import MessageNotModified
 async def start(client, message):
    buttons = [
             [
-                InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+                InlineKeyboardButton("ᴏꜰꜰɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/tgcalls_MusicXchat"),
             ],
             [
                 InlineKeyboardButton("ᴠɪᴅ ᴄᴍᴅs", url=f"https://t.me/tgcalls_Music_update/36"),
